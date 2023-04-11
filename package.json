@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot--qr-code-generator",
+  "version": "1.0.0",
+  "description": "a discord bot the generating qr code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "forsen",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.5.1"
+  }
+}
