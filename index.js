@@ -7,6 +7,7 @@ const qrimage = require('qr-image');
 const bot = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.DirectMessages, GatewayIntentBits.MessageContent] });
 
 bot.on('messageCreate', async message => {
+    console.log(message);
     // Check if the message starts with the command
     if (message.content.startsWith('!qr')) {
         // Extract the argument from the message
